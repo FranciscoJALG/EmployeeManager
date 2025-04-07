@@ -106,12 +106,17 @@ namespace EmployeeManager
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (txbNombre.Tag == null) return;
 
-            int id = int.Parse(txbNombre.Tag.ToString());
-            db.DeleteEmp(id);
-            getEmployee();
-            limpiarCampos();
+            var confirm = MessageBox.Show("¿Estás seguro de que deseas eliminar este empleado?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.Yes)
+            {
+                if (txbNombre.Tag == null) return;
+
+                int id = int.Parse(txbNombre.Tag.ToString());
+                db.DeleteEmp(id);
+                getEmployee();
+                limpiarCampos();
+            }
         }
 
         private void limpiarCampos()
