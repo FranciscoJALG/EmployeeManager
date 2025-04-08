@@ -86,7 +86,7 @@ namespace EmployeeManager
                 Puesto = txbPuesto.Text,
                 Salario = salario
             };
-
+            MessageBox.Show("Empleado Editado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             db.UpdateEmp(emp);
             getEmployee();
             limpiarCampos();
@@ -120,7 +120,9 @@ namespace EmployeeManager
                 if (txbNombre.Tag == null) return;
 
                 int id = int.Parse(txbNombre.Tag.ToString());
+
                 db.DeleteEmp(id);
+                MessageBox.Show("Empleado Eliminado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 getEmployee();
                 limpiarCampos();
             }
