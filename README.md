@@ -73,6 +73,15 @@ La app es de escritorio, por lo que no está diseñada para web o móvil.
 
 La base de datos se guarda localmente en el mismo directorio del ejecutable.
 
+🎯 Demo ejecutable
+Puedes descargar el instalador de la aplicación aquí: https://drive.google.com/file/d/13zLLO_-5H0YX9Hxf5ZqrBdoSHTnxwNJy/view?usp=drive_link.
+
+Descarga y descomprime el archivo .zip.
+
+Ejecuta setup.exe para instalar la aplicación.
+
+Una vez instalada, se añadirá un acceso directo al escritorio y al menú de inicio.
+
 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 
