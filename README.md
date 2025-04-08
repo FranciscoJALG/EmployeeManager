@@ -51,7 +51,22 @@ Compila y ejecuta el proyecto (F5 o botón "Iniciar").
 La base de datos employee.db se generará automáticamente en la carpeta del proyecto si no existe.
 
 📸 Capturas de pantalla
-(Puedes agregar imágenes aquí mostrando tu interfaz gráfica)
+![image](https://github.com/user-attachments/assets/f35135b4-7374-4f68-8295-c861362f1876)
+
+![image](https://github.com/user-attachments/assets/f43b2b65-b55b-4e78-8b07-2a8a09f10cf1)
+
+![image](https://github.com/user-attachments/assets/d8d66573-5c72-4a4f-912f-d5c7461bd06a)
+
+![image](https://github.com/user-attachments/assets/0f8f5f8c-9cd4-4bac-93e9-423dede932d0)
+
+![image](https://github.com/user-attachments/assets/25679ecd-d041-41af-8239-59d888961440)
+
+![image](https://github.com/user-attachments/assets/422b355b-47c2-45c1-ac94-b31af9dc3caf)
+
+![image](https://github.com/user-attachments/assets/b371be6a-e644-43e1-aaff-c5ef8fcf9650)
+
+![image](https://github.com/user-attachments/assets/216aa991-5d76-4505-8d24-4ba80f27becc)
+
 
 📌 Notas
 La app es de escritorio, por lo que no está diseñada para web o móvil.
