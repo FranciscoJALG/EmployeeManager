@@ -94,6 +94,13 @@ namespace EmployeeManager
 
         private void dgvEmpleados_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+            dgvEmpleados.EnableHeadersVisualStyles = false;
+            dgvEmpleados.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0, 122, 204);
+            dgvEmpleados.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgvEmpleados.DefaultCellStyle.SelectionBackColor = Color.LightBlue;
+            dgvEmpleados.DefaultCellStyle.SelectionForeColor = Color.Black;
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dgvEmpleados.Rows[e.RowIndex];
@@ -130,6 +137,16 @@ namespace EmployeeManager
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             limpiarCampos();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
